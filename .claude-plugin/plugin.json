@@ -1,0 +1,13 @@
+{
+  "name": "decken",
+  "version": "1.1.0",
+  "description": "Turn Claude Code, Codex, and Cursor into a better Gamma — unified native OpenXML (.pptx) slide generation & improvement via Decken MCP & Skill.",
+  "author": {
+    "name": "Decken",
+    "url": "https://decken.ai"
+  },
+  "homepage": "https://docs.decken.ai",
+  "repository": "https://github.com/decken-ai/decken-mcp",
+  "license": "MIT",
+  "skills": "./skills/"
+}

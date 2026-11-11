@@ -1,0 +1,33 @@
+{
+  "name": "@decken/mcp",
+  "version": "1.1.0",
+  "description": "Official Decken MCP Server and Coding-Agent Skill (Codex, Claude Code, Cursor) — Turn any Coding Agent into a better Gamma",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/mcp-server.mjs",
+  "bin": {
+    "decken-mcp": "./bin/decken-mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    ".claude-plugin",
+    ".mcp.json",
+    "codex",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/decken-mcp.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decken-ai/decken-mcp.git"
+  },
+  "homepage": "https://docs.decken.ai"
+}

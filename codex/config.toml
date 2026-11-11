@@ -1,0 +1,6 @@
+# Add to ~/.codex/config.toml to enable Decken native .pptx generation in OpenAI Codex CLI:
+
+[mcp_servers.decken]
+command = "npx"
+args = ["-y", "github:decken-ai/decken-mcp"]
+env_vars = ["DECKEN_API_KEY"]

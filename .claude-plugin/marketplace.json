@@ -1,0 +1,14 @@
+{
+  "name": "decken-plugins",
+  "owner": {
+    "name": "Decken",
+    "url": "https://decken.ai"
+  },
+  "plugins": [
+    {
+      "name": "decken",
+      "source": "./",
+      "description": "Native OpenXML (.pptx) slide reconstruction MCP server and skill for Claude Code."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "decken": {
+      "command": "npx",
+      "args": ["-y", "github:decken-ai/decken-mcp"],
+      "env": {
+        "DECKEN_API_KEY": "${DECKEN_API_KEY}"
+      }
+    }
+  }
+}
